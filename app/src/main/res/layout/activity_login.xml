@@ -35,5 +35,40 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="635dp"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginBottom="635dp"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Password"
+            android:paddingStart="10dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginBottom="635dp"
+            android:text="Login" />
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
