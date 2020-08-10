@@ -47,11 +47,14 @@ public class Index extends AppCompatActivity implements TextToSpeech.OnInitListe
             return super.onSingleTapUp(e);
         }
 
+
+
+
         @Override
-        public boolean onDoubleTap(MotionEvent e) {
+        public void onLongPress(MotionEvent e) {
             Intent i = new Intent(getApplicationContext(),Register.class);
             startActivity(i);
-            return super.onDoubleTap(e);
+            super.onLongPress(e);
         }
     }
 

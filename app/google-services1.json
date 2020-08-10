@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178346764643",
+    "firebase_url": "https://bmail-b786d.firebaseio.com",
+    "project_id": "bmail-b786d",
+    "storage_bucket": "bmail-b786d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178346764643:android:697acc438762c95bb1cb56",
+        "android_client_info": {
+          "package_name": "com.example.bmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178346764643-ggsi5u1puvcib77dmo3rkp7gs4tbb1o1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bmail",
+            "certificate_hash": "4a79726f952bb0ed73b6b5931da3be29f2f55b45"
+          }
+        },
+        {
+          "client_id": "178346764643-e1ds7no2g93dmr1l2qm4duu1og819ae2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCReK3z8aYOSEKuMtp02pznWE2h8L0UTYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178346764643-e1ds7no2g93dmr1l2qm4duu1og819ae2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

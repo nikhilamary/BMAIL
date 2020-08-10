@@ -8,6 +8,7 @@
     tools:context=".Login">
 
     <RelativeLayout
+        android:id="@+id/rel"
         android:layout_width="409dp"
         android:layout_height="729dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,10 +24,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="98dp"
-            android:layout_marginTop="37dp"
-            android:layout_marginEnd="113dp"
-            android:layout_marginBottom="635dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="547dp"
             android:fontFamily="@font/aclonica"
             android:text="LOGIN"
             android:textAlignment="center"
@@ -36,32 +37,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <EditText
-            android:id="@+id/email"
-            android:layout_width="300dp"
-            android:layout_height="63dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="250dp"
-            android:layout_marginBottom="635dp"
-            android:background="@color/colorPrimaryDark"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Email"
-            android:paddingStart="10dp"/>
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="300dp"
-            android:layout_height="63dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="350dp"
-            android:layout_marginBottom="635dp"
-            android:background="@color/colorPrimaryDark"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="Password"
-            android:paddingStart="10dp"/>
-
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
@@ -69,6 +44,34 @@
             android:layout_marginTop="450dp"
             android:layout_marginBottom="635dp"
             android:text="Login" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="231dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginBottom="449dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="259dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="322dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginBottom="357dp"
+            android:text="TextView" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

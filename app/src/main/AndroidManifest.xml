@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bmail">
 
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
-
-    <uses-permission android:name="android.permission.USE_BIOMETRIC"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".FingerPrint"></activity>
+        <activity android:name=".HomePage"></activity>
+        <activity android:name=".FingerPrint" />
         <activity android:name=".Register" />
         <activity android:name=".Login" />
         <activity android:name=".Index" />
